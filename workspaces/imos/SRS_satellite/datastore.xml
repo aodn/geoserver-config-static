@@ -1,0 +1,17 @@
+<dataStore>
+  <id>DataStoreInfoImpl-2d23ec69:126d477e611:-7fca</id>
+  <name>SRS_satellite</name>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-5f0a648d:1428d0d11a9:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key='memory mapped buffer'>false</entry>
+    <entry key='create spatial index'>false</entry>
+    <entry key='charset'>ISO-8859-1</entry>
+    <entry key='cache and reuse memory maps'>false</entry>
+    <entry key='url'>file:data/SRS/SRS_station_location.shp</entry>
+    <entry key='namespace'>imos.mod</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

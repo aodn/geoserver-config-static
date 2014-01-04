@@ -1,0 +1,60 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-2d23ec69:126d477e611:-7faf</id>
+  <name>satellite</name>
+  <nativeName>SRS_station_location</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-5f0a648d:1428d0d11a9:-7fff</id>
+  </namespace>
+  <title>SRS Satellite Downlink Stations</title>
+  <abstract>SRS Satellite Downlink Stations</abstract>
+  <keywords>
+    <string>SRS_station_location</string>
+    <string>SRS_satellite</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/plain</type>
+      <metadataType>other</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?id=155</content>
+    </metadataLink>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://imosmest.aodn.org.au/geonetwork/srv/en/iso19139.xml?uuid=744ac2a9-689c-40d3-b262-0df6863f0327</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;Geographic Coordinate System&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.2572220960423]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>115.85</minx>
+    <maxx>147.33</maxx>
+    <miny>-42.867</miny>
+    <maxy>-12.51</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>115.85</minx>
+    <maxx>147.33</maxx>
+    <miny>-42.867</miny>
+    <maxy>-12.51</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='indexingEnabled'>false</entry>
+    <entry key='cachingEnabled'>false</entry>
+    <entry key='dirName'>SRS_satellite_satellite</entry>
+    <entry key='kml.regionateFeatureLimit'>15</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-2d23ec69:126d477e611:-7fca</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
