@@ -1,0 +1,50 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-2d23ec69:126d477e611:-7f8f</id>
+  <name>aus_coast</name>
+  <nativeName>cstauscd_r</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--6f874984:1352c9de7a5:3ed5</id>
+  </namespace>
+  <title>cstauscd_r_Type</title>
+  <abstract>Generated from aus_coast</abstract>
+  <keywords>
+    <string>aus_coast</string>
+    <string>cstauscd_r</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GCS_GDA_1994&quot;, 
+  DATUM[&quot;D_GDA_1994&quot;, 
+    SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>112.501</minx>
+    <maxx>154.001</maxx>
+    <miny>-43.999</miny>
+    <maxy>-8.999</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>112.501</minx>
+    <maxx>154.001</maxx>
+    <miny>-43.999</miny>
+    <maxy>-8.999</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cacheAgeMax'>6000</entry>
+    <entry key='indexingEnabled'>false</entry>
+    <entry key='cachingEnabled'>true</entry>
+    <entry key='dirName'>aus_coast_aus_coast</entry>
+    <entry key='kml.regionateFeatureLimit'>15</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-2d23ec69:126d477e611:-7fd2</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
