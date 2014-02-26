@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl-258b5c88:144683d4852:-8000</id>
+  <name>naturalearth_boundaries</name>
+  <type>Directory of spatial files (shapefiles)</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--252fe822:14467e23d63:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">Australia/Hobart</entry>
+    <entry key="fstype">shape</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:data/naturalearth</entry>
+    <entry key="namespace">gn.mod</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
