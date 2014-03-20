@@ -4,12 +4,11 @@
   <path>/</path>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-2d23ec69:126d477e611:-7fde</id>
+    <id>StyleInfoImpl-2d23ec69:126d477e611:-7fe4</id>
   </defaultStyle>
-  <resource class='featureType'>
+  <resource class="featureType">
     <id>FeatureTypeInfoImpl-2d23ec69:126d477e611:-7f8f</id>
   </resource>
-  <enabled>false</enabled>
   <attribution>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>

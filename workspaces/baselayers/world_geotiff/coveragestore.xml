@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--62a9b58b:144dcb81441:-7fff</id>
+  <name>world_geotiff</name>
+  <type>WorldImage</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--6f874984:1352c9de7a5:3ed4</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:data/bathy/bathy/worldmap_large_default/worldmap_large_default.tif</url>
+</coverageStore>
