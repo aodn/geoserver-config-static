@@ -1,0 +1,44 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--62a9b58b:144dcb81441:-8000</id>
+  <name>default_bathy</name>
+  <mode>SINGLE</mode>
+  <title>default_bathy</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--6f874984:1352c9de7a5:3ed4</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--5a23c8e3:144dc787e13:-7ffe</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--62a9b58b:144dcb81441:-7ffd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2d23ec69:126d477e611:-7f90</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2d23ec69:126d477e611:-7f8e</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-2d23ec69:126d477e611:-7ff8</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--3a52b6b4:1428ce0125d:-7ffd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2d23ec69:126d477e611:-7ff3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2d23ec69:126d477e611:-7fe4</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>
