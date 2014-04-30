@@ -1,0 +1,20 @@
+<dataStore>
+  <id>DataStoreInfoImpl-4a3ced34:13835bab66a:-5bec</id>
+  <name>DSEWPaC Key Ecological Features SW</name>
+  <description>Key Ecological Features (polygons) - SW marine planning region</description>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key='memory mapped buffer'>false</entry>
+    <entry key='create spatial index'>true</entry>
+    <entry key='charset'>ISO-8859-1</entry>
+    <entry key='filetype'>shapefile</entry>
+    <entry key='cache and reuse memory maps'>true</entry>
+    <entry key='url'>file:data/DSEWPAC_KEFs/sw_region_kefs.shp</entry>
+    <entry key='namespace'>aodn</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>
