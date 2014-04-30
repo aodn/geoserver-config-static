@@ -1,0 +1,17 @@
+<layer>
+  <name>sw_region_kefs_points</name>
+  <id>LayerInfoImpl-4a3ced34:13835bab66a:-5be2</id>
+  <path>DSEWPaC/Key Ecological Features</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4ed1adbc:13835ee1079:-3aed</id>
+  </defaultStyle>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-4a3ced34:13835bab66a:-5be3</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
