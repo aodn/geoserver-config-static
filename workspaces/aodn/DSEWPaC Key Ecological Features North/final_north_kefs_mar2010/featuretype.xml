@@ -1,0 +1,48 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-4a3ced34:13835bab66a:-5bee</id>
+  <name>final_north_kefs_mar2010</name>
+  <nativeName>final_north_kefs_mar2010</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>North Marine Bioregional Planning Region</title>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://catalogue.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp-1.4?uuid=e4c1865a-be79-4652-8fc7-25306ce3c481&amp;styleSheet=xml_iso19139.mcp-1.4.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;GCS_GDA_1994&quot;, 
+  DATUM[&quot;D_GDA_1994&quot;, 
+    SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>127.606</minx>
+    <maxx>142.093</maxx>
+    <miny>-17.657</miny>
+    <maxy>-8.882</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>127.606</minx>
+    <maxx>142.093</maxx>
+    <miny>-17.657</miny>
+    <maxy>-8.882</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-4a3ced34:13835bab66a:-5bef</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>

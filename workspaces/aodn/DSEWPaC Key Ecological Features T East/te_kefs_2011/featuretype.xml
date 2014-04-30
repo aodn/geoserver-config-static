@@ -1,0 +1,48 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-4a3ced34:13835bab66a:-5be0</id>
+  <name>te_kefs_2011</name>
+  <nativeName>te_kefs_2011</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-3b0a723a:137e9896802:-7ffd</id>
+  </namespace>
+  <title>Temperate East Marine Region</title>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>http://catalogue.aodn.org.au/geonetwork/srv/eng/xml_iso19139.mcp-1.4?uuid=6bcd3b9c-46ee-4253-99de-93fb08f9cfe1&amp;styleSheet=xml_iso19139.mcp-1.4.xsl</content>
+    </metadataLink>
+  </metadataLinks>
+  <nativeCRS>GEOGCS[&quot;GCS_GDA_1994&quot;, 
+  DATUM[&quot;D_GDA_1994&quot;, 
+    SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>150.276</minx>
+    <maxx>168.862</maxx>
+    <miny>-36.543</miny>
+    <maxy>-24.498</maxy>
+    <crs>EPSG:4283</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>150.276</minx>
+    <maxx>168.862</maxx>
+    <miny>-36.543</miny>
+    <maxy>-24.498</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key='cachingEnabled'>false</entry>
+  </metadata>
+  <store class='dataStore'>
+    <id>DataStoreInfoImpl-4a3ced34:13835bab66a:-5be1</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+</featureType>
