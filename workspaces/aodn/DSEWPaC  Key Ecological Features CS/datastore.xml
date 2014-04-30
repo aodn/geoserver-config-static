@@ -1,0 +1,19 @@
+<dataStore>
+  <id>DataStoreInfoImpl-4a3ced34:138342a82c5:3039</id>
+  <name>DSEWPaC  Key Ecological Features CS</name>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-3b0a723a:137e9896802:-7ffe</id>
+  </workspace>
+  <connectionParameters>
+    <entry key='memory mapped buffer'>false</entry>
+    <entry key='create spatial index'>true</entry>
+    <entry key='charset'>ISO-8859-1</entry>
+    <entry key='filetype'>shapefile</entry>
+    <entry key='cache and reuse memory maps'>true</entry>
+    <entry key='url'>file:data/DSEWPAC_KEFs/cs_kefs_2011.shp</entry>
+    <entry key='namespace'>aodn</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

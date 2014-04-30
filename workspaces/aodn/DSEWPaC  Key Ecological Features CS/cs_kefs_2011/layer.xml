@@ -1,0 +1,25 @@
+<layer>
+  <name>cs_kefs_2011</name>
+  <id>LayerInfoImpl-4a3ced34:138342a82c5:303c</id>
+  <path>DSEWPaC/Key Ecological Features</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4ed1adbc:13835ee1079:-3f0f</id>
+  </defaultStyle>
+  <styles class='linked-hash-set'>
+    <style>
+      <id>StyleInfoImpl-4a3ced34:138342a82c5:2f68</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-4a3ced34:138342a82c5:2f67</id>
+    </style>
+  </styles>
+  <resource class='featureType'>
+    <id>FeatureTypeInfoImpl-4a3ced34:138342a82c5:303b</id>
+  </resource>
+  <enabled>true</enabled>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
