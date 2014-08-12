@@ -1,0 +1,134 @@
+<coverage>
+  <id>CoverageInfoImpl--5d213009:147c7a4899a:-7fff</id>
+  <name>geoscienceAusBathy</name>
+  <nativeName>geoscienceAusBathy</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--6f874984:1352c9de7a5:3ed5</id>
+  </namespace>
+  <title>Geoscience Australia 500 Bathy</title>
+  <description>Generated from GeoTIFF</description>
+  <keywords>
+    <string>WCS</string>
+    <string>GeoTIFF</string>
+    <string>bathcl500md_coloured</string>
+  </keywords>
+  <nativeCRS class="org.geotools.referencing.crs.DefaultEngineeringCRS">LOCAL_CS[&quot;Wildcard 2D cartesian plane in metric unit&quot;, 
+  LOCAL_DATUM[&quot;Unknown&quot;, 0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;404000&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>101.99499999999938</minx>
+    <maxx>172.00499999999937</maxx>
+    <miny>-52.004999999999605</miny>
+    <maxy>-7.994999999999609</maxy>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:404000</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>101.99499999999938</minx>
+    <maxx>172.00499999999937</maxx>
+    <miny>-52.004999999999605</miny>
+    <maxy>-7.994999999999609</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">GeoscienceAusBathy_bathcl500md_coloured</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-359eb024:147c3bd3cb2:-7f3e</id>
+  </store>
+  <nativeFormat>GeoTIFF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>14002 8802</high>
+    </range>
+    <transform>
+      <scaleX>0.005</scaleX>
+      <scaleY>-0.005</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>101.99749999999938</translateX>
+      <translateY>-7.99749999999961</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>GEOTIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbour</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>RED_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>GREEN_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BLUE_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:404000</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:404000</string>
+  </responseSRS>
+  <parameters>
+    <entry>
+      <string>InputTransparentColor</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>SUGGESTED_TILE_SIZE</string>
+      <string>512,512</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>bathcl500md_coloured</nativeCoverageName>
+</coverage>

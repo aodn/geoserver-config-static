@@ -41,6 +41,7 @@
   </latLonBoundingBox>
   <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
+  <advertised>false</advertised>
   <metadata>
     <entry key="cachingEnabled">false</entry>
     <entry key="dirName">world_geotiff_worldmap_large_default</entry>
@@ -75,6 +76,7 @@
     <string>bilinear</string>
     <string>bicubic</string>
   </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbour</defaultInterpolationMethod>
   <dimensions>
     <coverageDimension>
       <name>RED_BAND</name>

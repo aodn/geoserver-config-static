@@ -1,0 +1,15 @@
+<layer>
+  <name>geoscienceAusBathy</name>
+  <id>LayerInfoImpl--5d213009:147c7a4899a:-7ffe</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-359eb024:147c3bd3cb2:-7f35</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--5d213009:147c7a4899a:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
