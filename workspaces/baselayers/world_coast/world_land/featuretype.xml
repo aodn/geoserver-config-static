@@ -28,13 +28,13 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key='cacheAgeMax'>6000</entry>
-    <entry key='indexingEnabled'>false</entry>
-    <entry key='cachingEnabled'>true</entry>
-    <entry key='dirName'>world_coast_world_land</entry>
-    <entry key='kml.regionateFeatureLimit'>15</entry>
+    <entry key="cacheAgeMax">6000</entry>
+    <entry key="indexingEnabled">false</entry>
+    <entry key="cachingEnabled">true</entry>
+    <entry key="dirName">world_coast_world_land</entry>
+    <entry key="kml.regionateFeatureLimit">15</entry>
   </metadata>
-  <store class='dataStore'>
+  <store class="dataStore">
     <id>DataStoreInfoImpl-2d23ec69:126d477e611:-7fd5</id>
   </store>
   <maxFeatures>0</maxFeatures>

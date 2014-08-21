@@ -25,12 +25,26 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>GEOGCS[&quot;Geographic Coordinate System&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.2572220960423]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
