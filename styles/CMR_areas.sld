@@ -9,10 +9,9 @@
       <Abstract></Abstract>
 
       <FeatureTypeStyle>
-        <!--FeatureTypeName>Feature</FeatureTypeName-->
         <Rule>
           <Title>CMR areas</Title>
-          <Abstract>Areas showing Commonwealth Marine Reserves (CMR’s)</Abstract>
+          <Abstract>Areas showing Commonwealth Marine Reserves (CMRs)</Abstract>
               <PolygonSymbolizer>
                   <Fill>
                      <CssParameter name="fill">#264B8D</CssParameter>
