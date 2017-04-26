@@ -28,8 +28,8 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="indexingEnabled">false</entry>
     <entry key="cacheAgeMax">6000</entry>
+    <entry key="indexingEnabled">false</entry>
     <entry key="cachingEnabled">true</entry>
     <entry key="dirName">world_coast_worldland_default</entry>
     <entry key="kml.regionateFeatureLimit">15</entry>

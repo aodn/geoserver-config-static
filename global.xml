@@ -1,5 +1,6 @@
 <global>
   <settings>
+    <id>SettingsInfoImpl-359eb024:147c3bd3cb2:-8000</id>
     <contact>
       <id>contact</id>
     </contact>
@@ -7,6 +8,7 @@
     <numDecimals>4</numDecimals>
     <verbose>true</verbose>
     <verboseExceptions>false</verboseExceptions>
+    <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
   </settings>
   <jai>
     <allowInterpolation>false</allowInterpolation>
@@ -27,7 +29,7 @@
     <queueType>UNBOUNDED</queueType>
     <imageIOCacheThreshold>10240</imageIOCacheThreshold>
   </coverageAccess>
-  <updateSequence>2</updateSequence>
+  <updateSequence>75</updateSequence>
   <featureTypeCacheSize>0</featureTypeCacheSize>
   <globalServices>true</globalServices>
   <xmlPostRequestLogBufferSize>1024</xmlPostRequestLogBufferSize>

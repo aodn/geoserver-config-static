@@ -36,8 +36,8 @@
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <metadata>
-    <entry key="indexingEnabled">false</entry>
     <entry key="cacheAgeMax">6000</entry>
+    <entry key="indexingEnabled">false</entry>
     <entry key="cachingEnabled">true</entry>
     <entry key="dirName">aus_coast_aus_coast</entry>
     <entry key="kml.regionateFeatureLimit">15</entry>
