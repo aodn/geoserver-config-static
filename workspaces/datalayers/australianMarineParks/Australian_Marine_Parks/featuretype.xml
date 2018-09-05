@@ -1,0 +1,60 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-30bda84d:165a2445281:-7ffb</id>
+  <name>Australian_Marine_Parks</name>
+  <nativeName>AustralianMarineParks</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-30bda84d:165a2445281:-7fff</id>
+  </namespace>
+  <title>Australian Marine Parks</title>
+  <keywords>
+    <string>AustralianMarineParks</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;GCS_GDA_1994&quot;, 
+  DATUM[&quot;D_GDA_1994&quot;, 
+    SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>70.71702398989657</minx>
+    <maxx>170.3666666670455</maxx>
+    <miny>-58.449469945928456</miny>
+    <maxy>-8.881893021851072</maxy>
+    <crs>GEOGCS[&quot;GCS_GDA_1994&quot;, 
+  DATUM[&quot;D_GDA_1994&quot;, 
+    SPHEROID[&quot;GRS_1980&quot;, 6378137.0, 298.257222101]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Longitude&quot;, EAST], 
+  AXIS[&quot;Latitude&quot;, NORTH]]</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>70.71702398989657</minx>
+    <maxx>170.3666666670455</maxx>
+    <miny>-58.449469945928456</miny>
+    <maxy>-8.881893021851072</maxy>
+    <crs>GEOGCS[&quot;WGS84(DD)&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH]]</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-30bda84d:165a2445281:-7ffe</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
