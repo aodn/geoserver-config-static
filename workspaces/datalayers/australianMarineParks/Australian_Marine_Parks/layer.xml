@@ -1,0 +1,15 @@
+<layer>
+  <name>Australian_Marine_Parks</name>
+  <id>LayerInfoImpl-30bda84d:165a2445281:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--57da83ed:165a281ae3e:-7fff</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-30bda84d:165a2445281:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
