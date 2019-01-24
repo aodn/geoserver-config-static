@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerGroupInfoImpl--62a9b58b:144dcb81441:-8000</id>
+  <id>LayerGroupInfoImpl-3b11d822:144d7daf54e:-7fff</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>baselayers:default_bathy</name>
+  <name>baselayers:default_basemap_simple</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>

@@ -1,10 +1,24 @@
 <GeoServerGWCConfig>
-  <version>1.0.0</version>
-  <directWMSIntegrationEnabled>false</directWMSIntegrationEnabled>
+  <version>1.1.0</version>
+  <directWMSIntegrationEnabled>true</directWMSIntegrationEnabled>
   <WMSCEnabled>true</WMSCEnabled>
-  <WMTSEnabled>true</WMTSEnabled>
   <TMSEnabled>true</TMSEnabled>
-  <cacheLayersByDefault>true</cacheLayersByDefault>
+  <securityEnabled>false</securityEnabled>
+  <innerCachingEnabled>false</innerCachingEnabled>
+  <persistenceEnabled>false</persistenceEnabled>
+  <cacheProviderClass>class org.geowebcache.storage.blobstore.memory.guava.GuavaCacheProvider</cacheProviderClass>
+  <cacheConfigurations>
+    <entry>
+      <string>class org.geowebcache.storage.blobstore.memory.guava.GuavaCacheProvider</string>
+      <InnerCacheConfiguration>
+        <hardMemoryLimit>16</hardMemoryLimit>
+        <policy>NULL</policy>
+        <concurrencyLevel>4</concurrencyLevel>
+        <evictionTime>120</evictionTime>
+      </InnerCacheConfiguration>
+    </entry>
+  </cacheConfigurations>
+  <cacheLayersByDefault>false</cacheLayersByDefault>
   <cacheNonDefaultStyles>true</cacheNonDefaultStyles>
   <metaTilingX>4</metaTilingX>
   <metaTilingY>4</metaTilingY>
@@ -25,4 +39,5 @@
     <string>image/png</string>
     <string>image/jpeg</string>
   </defaultOtherCacheFormats>
+  <lockProviderName>nioLock</lockProviderName>
 </GeoServerGWCConfig>

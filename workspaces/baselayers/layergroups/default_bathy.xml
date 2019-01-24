@@ -39,4 +39,8 @@
     <maxy>90.0</maxy>
     <crs>EPSG:4326</crs>
   </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
 </layerGroup>
