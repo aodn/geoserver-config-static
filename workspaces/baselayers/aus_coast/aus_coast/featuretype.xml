@@ -45,6 +45,10 @@
   <store class="dataStore">
     <id>DataStoreInfoImpl-2d23ec69:126d477e611:-7fd2</id>
   </store>
+  <serviceConfiguration>true</serviceConfiguration>
+  <disabledServices>
+    <string>WFS</string>
+  </disabledServices>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>
 </featureType>
