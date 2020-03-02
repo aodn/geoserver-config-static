@@ -1,20 +1,21 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl--62a9b58b:144dcb81441:-7ffd</id>
+  <id>LayerInfoImpl-30bda84d:165a2445281:-7ffa</id>
   <enabled>true</enabled>
-  <name>baselayers:worldmap_large_default</name>
+  <inMemoryCached>true</inMemoryCached>
+  <name>datalayers:Australian_Marine_Parks</name>
   <mimeFormats>
-    <string>image/jpeg</string>
     <string>image/png</string>
+    <string>image/jpeg</string>
   </mimeFormats>
   <gridSubsets>
     <gridSubset>
       <gridSetName>EPSG:4326</gridSetName>
       <extent>
         <coords>
-          <double>-180.0</double>
-          <double>-90.0</double>
-          <double>180.0</double>
-          <double>90.0</double>
+          <double>70.71702398989657</double>
+          <double>-58.449469945928456</double>
+          <double>170.3666666670455</double>
+          <double>-8.881893021851072</double>
         </coords>
       </extent>
     </gridSubset>
@@ -22,10 +23,10 @@
       <gridSetName>EPSG:900913</gridSetName>
       <extent>
         <coords>
-          <double>-180.0</double>
-          <double>-90.0</double>
-          <double>180.0</double>
-          <double>90.0</double>
+          <double>7872183.100970997</double>
+          <double>-8062335.808450961</double>
+          <double>1.896513058152288E7</double>
+          <double>-992711.7306092348</double>
         </coords>
       </extent>
     </gridSubset>
@@ -41,7 +42,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>rasterMinScale</defaultStyle>
+      <defaultStyle>datalayers:AustralianMarineParks</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
