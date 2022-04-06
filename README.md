@@ -1,4 +1,5 @@
-Configure GeoServer Static Layers
-=======================
-
+# Configure GeoServer Static Layers
 This repository is used to configure GeoServer layers which never (or rarely) change. It is used in the deployment of GeoServer instances. Typical layers include bathymetric, world map and marine parks boundaries.
+
+## Licensing
+This project is licensed under the terms of the GNU GPLv3 license.
