@@ -1,14 +1,13 @@
 version: '2'
 
 services:
-  dev:
-    image: geonetwork-config-test
-    build:
-      context: .
-      args:
-        BUILDER_UID: 1000
-    stdin_open: true
-    tty: true
-    working_dir: /app
+  geoserver:
+    image: kartoza/geoserver:2.21.1
+    environment:
+      - GEOSERVER_ADMIN_PASSWORD=aodnsecret
+      - GEOSERVER_ADMIN_USER=aodn
+      - STABLE_EXTENSIONS=gwc-s3-plugin
+    ports:
+      - "8080:8080"
     volumes:
-      - './:/app'
+      - ./data_dir:/opt/geoserver/data_dir
