@@ -1,0 +1,1776 @@
+19 052 02:52:27 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+19 052 02:52:29 WARN   [geoserver.monitor] - monitoring storage memory not found, falling back to 'memory'
+19 052 02:52:30 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+19 052 02:52:31 CONFIG [org.geoserver] - Loading catalog /opt/geoserver/data_dir
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'SRS_downlink'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'CMR_areas'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'KEFS_southWest'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'kefs_dark_orange'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'ne_boundary'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'line'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'ne_boundary_da'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'kefs_red'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'ne_coastline'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'point'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'polygon'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'raster'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'rasterMinScale'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'kefs_with_NAME'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded default workspace 'imos'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded workspace 'datalayers'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'AustralianMarineParks'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded workspace 'aodn'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded workspace 'gn'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded workspace 'baselayers'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'default_map_background'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'land_aus_default'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'geoscienceAusBathy'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded style 'land_no_aus_default'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded workspace 'imos'
+19 052 02:52:31 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC  Key Ecological Features CS', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'cs_kefs_2011', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'cs_kefs_2011'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features NW', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'nw_region_kefs', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'nw_region_kefs'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Commonwealth_Marine_Reserves', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'comm_mpa', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'comm_mpa'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features North', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'final_north_kefs_mar2010', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'final_north_kefs_mar2010'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features T East', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'te_kefs_2011', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'te_kefs_2011'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC_Key_Ecological_Features_SW_(points)', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs_points', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs_points'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features SW', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'aus_coast', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'aus_coast', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'aus_coast'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded coverage store 'GeoscienceAusBathy', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded coverage 'geoscienceAusBathy', enabled
+19 052 02:52:33 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'geoscienceAusBathy'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'world_background', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'Polygone_world_area2', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'Polygone_world_area2'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'world_coast', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'world_land', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'world_land'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded coverage store 'world_geotiff', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded coverage 'worldmap_large_default', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'worldmap_large_default'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer group 'default_basemap_simple'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer group 'default_bathy'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'australianMarineParks', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'Australian_Marine_Parks', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'Australian_Marine_Parks'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'naturalearth_boundaries', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_lines_land', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_lines_land'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_da', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_da'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_coastline', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'ne_50m_coastline'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded coverage store 'BlueMarble_world', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded coverage 'world', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'world'
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded data store 'SRS_satellite', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded feature type 'satellite', enabled
+19 052 02:52:33 CONFIG [org.geoserver] - Loaded layer 'satellite'
+19 052 02:52:33 CONFIG [org.geoserver] - Read catalog in 2.765 s
+19 052 02:52:34 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl--789196a5:183ee282ce1:-7fff', enabled
+19 052 02:52:34 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl--789196a5:183ee282ce1:-7ffe', enabled
+19 052 02:52:34 CONFIG [org.geoserver] - Loaded service 'csw', enabled
+19 052 02:52:34 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl--789196a5:183ee282ce1:-7ffd', enabled
+19 052 02:52:34 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl--789196a5:183ee282ce1:-7ffc', enabled
+19 052 02:52:34 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--789196a5:183ee282ce1:-7ffb', enabled
+19 052 02:52:34 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 052 02:52:34 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+19 052 02:52:34 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+19 052 02:52:34 CONFIG [config.XMLConfiguration] - Initializing GridSets from /opt/geoserver/data_dir/gwc
+19 052 02:52:34 CONFIG [config.XMLConfiguration] - Initializing layers from /opt/geoserver/data_dir/gwc
+19 052 02:52:34 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+19 052 02:52:34 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+19 052 02:52:34 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+19 052 02:52:34 CONFIG [gwc.layer] - Loaded 7 tile layers in 42.90 ms
+19 052 02:52:34 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration /opt/geoserver/data_dir/gwc contained no blob store infos.
+19 052 02:52:34 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOWEBCACHE_CACHE_DIR set to /opt/geoserver/data_dir/gwc, using it as the default prefix.
+19 052 02:52:34 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+19 052 02:52:37 INFO   [flow.config] - Loaded control-flow rule: ows.global=100
+19 052 02:52:37 INFO   [flow.config] - Loaded control-flow rule: ows.wms.getmap=10
+19 052 02:52:37 INFO   [flow.config] - Loaded control-flow rule: ows.wfs.getfeature.application/msexcel=4
+19 052 02:52:37 INFO   [flow.config] - Loaded control-flow rule: user=6
+19 052 02:52:37 INFO   [flow.config] - Loaded control-flow rule: ows.gwc=16
+19 052 02:52:37 INFO   [flow.config] - Loaded control-flow rule: user.ows.wps.execute=1000/d;30s
+19 052 02:52:37 CONFIG [geoserver.flow] - Control-flow active with 6 flow controllers
+19 052 02:52:38 INFO   [geoserver.monitor] - Monitor extension enabled
+19 052 02:52:39 CONFIG [platform.resource] - Notifying ENTRY_MODIFY change on /opt/geoserver/data_dir/gwc-layers. Created: 13, removed: 0, modified: 7
+19 052 02:52:41 WARN   [turbojpeg.TurboJPEGMapResponse] - The turbo jpeg encoder is available for usage
+19 052 02:52:41 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 052 02:52:41 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 052 02:52:41 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 052 02:52:42 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 052 02:52:42 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+19 052 02:52:42 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+19 052 02:52:42 CONFIG [diskquota.DiskQuotaMonitor] - 20 layers attached to global quota 20.0 GB
+19 052 02:52:42 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 5 SECONDS
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+19 052 02:52:43 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+19 052 02:52:43 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+19 052 02:52:43 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+19 052 02:52:43 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+19 052 02:52:43 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 052 02:52:43 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+19 052 02:52:43 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+19 052 02:52:43 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+19 052 02:52:43 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+19 052 02:52:43 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+19 052 02:52:44 CONFIG [platform.resource] - Notifying ENTRY_MODIFY change on /opt/geoserver/data_dir/gwc-layers. Created: 0, removed: 0, modified: 2
+19 052 02:52:44 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 052 02:52:44 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+19 052 02:52:44 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+19 052 02:52:44 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+19 052 02:52:45 INFO   [config.XMLConfiguration] - Wrote configuration to /opt/geoserver/data_dir/gwc
+19 052 02:52:49 CONFIG [platform.resource] - Notifying ENTRY_MODIFY change on /opt/geoserver/data_dir/gwc-layers. Created: 0, removed: 0, modified: 1
+19 053 02:53:16 WARN   [geoserver.security] - Failed login, user aodn from 172.25.0.1
+19 053 02:53:16 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3252ms
+19 055 02:55:06 WARN   [geoserver.security] - Failed login, user geoserver from 172.25.0.1
+19 055 02:55:06 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2984ms
+19 056 02:56:47 WARN   [geoserver.security] - Failed login, user aodn from 172.25.0.1
+19 056 02:56:47 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3697ms
+19 056 02:56:53 WARN   [geoserver.security] - Failed login, user aodn from 172.25.0.1
+19 056 02:56:53 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3287ms
+19 056 02:56:59 WARN   [geoserver.security] - Failed login, user geoserver from 172.25.0.1
+19 056 02:56:59 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3334ms
+19 057 02:57:19 CONFIG [platform.resource] - Notifying ENTRY_DELETE change on /opt/geoserver/data_dir/security/role/default/roles.xml. Created: 0, removed: 0, modified: 0
+19 057 02:57:19 INFO   [geoserver.security] - Start reloading roles for service named default
+19 057 02:57:19 CONFIG [platform.resource] - Notifying ENTRY_DELETE change on /opt/geoserver/data_dir/security/usergroup/default/users.xml. Created: 0, removed: 0, modified: 0
+19 057 02:57:19 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 057 02:57:24 CONFIG [platform.resource] - Notifying ENTRY_CREATE change on /opt/geoserver/data_dir/security/role/default/roles.xml. Created: 0, removed: 0, modified: 0
+19 057 02:57:24 INFO   [geoserver.security] - Start reloading roles for service named default
+19 057 02:57:24 CONFIG [platform.resource] - Notifying ENTRY_CREATE change on /opt/geoserver/data_dir/security/usergroup/default/users.xml. Created: 0, removed: 0, modified: 0
+19 057 02:57:24 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 057 02:57:29 INFO   [jdbc.JDBCQuotaStore] - Closing up the JDBC quota store 
+19 057 02:57:29 WARN   [support.DisposableBeanAdapter] - Destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@5a32f806[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@5ffbded6] rejected from java.util.concurrent.ThreadPoolExecutor@54b82789[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+19 057 02:57:29 WARN   [support.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'geoServerLoader': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'wmsLifecycleHandler': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+19 057 02:57:29 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+19 057 02:57:58 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+19 058 02:58:00 WARN   [geoserver.monitor] - monitoring storage memory not found, falling back to 'memory'
+19 058 02:58:01 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+19 058 02:58:02 CONFIG [org.geoserver] - Loading catalog /opt/geoserver/data_dir
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'SRS_downlink'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'CMR_areas'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'KEFS_southWest'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'generic'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'kefs_dark_orange'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'kefs_red'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'ne_boundary_da'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'kefs_with_NAME'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'ne_boundary'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'line'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'point'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'ne_coastline'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'polygon'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'raster'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'rasterMinScale'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded default workspace 'imos'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded workspace 'gn'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded workspace 'datalayers'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'AustralianMarineParks'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded workspace 'baselayers'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'default_map_background'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'land_aus_default'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'land_no_aus_default'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded style 'geoscienceAusBathy'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded workspace 'aodn'
+19 058 02:58:02 CONFIG [org.geoserver] - Loaded workspace 'imos'
+19 058 02:58:03 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC  Key Ecological Features CS', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'cs_kefs_2011', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'cs_kefs_2011'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Commonwealth_Marine_Reserves', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'comm_mpa', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'comm_mpa'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features NW', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'nw_region_kefs', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'nw_region_kefs'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features SW', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features T East', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'te_kefs_2011', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'te_kefs_2011'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC_Key_Ecological_Features_SW_(points)', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs_points', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs_points'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features North', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'final_north_kefs_mar2010', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'final_north_kefs_mar2010'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'aus_coast', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'aus_coast', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'aus_coast'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded coverage store 'GeoscienceAusBathy', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded coverage 'geoscienceAusBathy', enabled
+19 058 02:58:04 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'geoscienceAusBathy'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'world_background', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'Polygone_world_area2', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'Polygone_world_area2'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'world_coast', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'world_land', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'world_land'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded coverage store 'world_geotiff', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded coverage 'worldmap_large_default', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'worldmap_large_default'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer group 'default_basemap_simple'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer group 'default_bathy'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'australianMarineParks', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'Australian_Marine_Parks', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'Australian_Marine_Parks'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'naturalearth_boundaries', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_da', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_da'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_lines_land', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_lines_land'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_coastline', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'ne_50m_coastline'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded coverage store 'BlueMarble_world', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded coverage 'world', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'world'
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded data store 'SRS_satellite', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded feature type 'satellite', enabled
+19 058 02:58:04 CONFIG [org.geoserver] - Loaded layer 'satellite'
+19 058 02:58:04 CONFIG [org.geoserver] - Read catalog in 2.851 s
+19 058 02:58:05 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-2c2063f7:183ee2d3ac7:-8000', enabled
+19 058 02:58:05 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-2c2063f7:183ee2d3ac7:-7fff', enabled
+19 058 02:58:05 CONFIG [org.geoserver] - Loaded service 'csw', enabled
+19 058 02:58:05 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-2c2063f7:183ee2d3ac7:-7ffe', enabled
+19 058 02:58:05 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl--789196a5:183ee282ce1:-7ffc', enabled
+19 058 02:58:05 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-2c2063f7:183ee2d3ac7:-7ffd', enabled
+19 058 02:58:05 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 058 02:58:05 CONFIG [config.XMLConfiguration] - TileLayerConfiguration file validated fine.
+19 058 02:58:05 CONFIG [config.XMLConfiguration] - Initializing GridSets from /opt/geoserver/data_dir/gwc
+19 058 02:58:05 INFO   [config.XMLConfiguration] - Read GridSet InspireCRS84Quad
+19 058 02:58:05 CONFIG [config.XMLConfiguration] - Initializing layers from /opt/geoserver/data_dir/gwc
+19 058 02:58:05 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+19 058 02:58:05 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+19 058 02:58:05 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+19 058 02:58:05 CONFIG [gwc.layer] - Loaded 20 tile layers in 58.72 ms
+19 058 02:58:05 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration /opt/geoserver/data_dir/gwc contained no blob store infos.
+19 058 02:58:05 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOWEBCACHE_CACHE_DIR set to /opt/geoserver/data_dir/gwc, using it as the default prefix.
+19 058 02:58:06 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+19 058 02:58:07 INFO   [flow.config] - Loaded control-flow rule: ows.global=100
+19 058 02:58:07 INFO   [flow.config] - Loaded control-flow rule: ows.wms.getmap=10
+19 058 02:58:07 INFO   [flow.config] - Loaded control-flow rule: ows.wfs.getfeature.application/msexcel=4
+19 058 02:58:07 INFO   [flow.config] - Loaded control-flow rule: user=6
+19 058 02:58:07 INFO   [flow.config] - Loaded control-flow rule: ows.gwc=16
+19 058 02:58:07 INFO   [flow.config] - Loaded control-flow rule: user.ows.wps.execute=1000/d;30s
+19 058 02:58:07 CONFIG [geoserver.flow] - Control-flow active with 6 flow controllers
+19 058 02:58:08 INFO   [geoserver.monitor] - Monitor extension enabled
+19 058 02:58:12 WARN   [turbojpeg.TurboJPEGMapResponse] - The turbo jpeg encoder is available for usage
+19 058 02:58:12 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 058 02:58:12 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 058 02:58:12 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 058 02:58:13 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 058 02:58:13 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+19 058 02:58:13 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+19 058 02:58:13 CONFIG [diskquota.DiskQuotaMonitor] - 20 layers attached to global quota 20.0 GB
+19 058 02:58:13 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 5 SECONDS
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+19 058 02:58:13 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+19 058 02:58:13 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+19 058 02:58:13 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+19 058 02:58:13 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+19 058 02:58:13 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 058 02:58:13 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+19 058 02:58:13 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+19 058 02:58:13 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+19 058 02:58:13 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+19 058 02:58:13 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+19 058 02:58:14 WARN   [servlet.BaseMapServlet] - Cannot delete file:/usr/local/tomcat/work/Catalina/localhost/geoserver/wicket-filestore
+19 058 02:58:14 INFO   [jdbc.JDBCQuotaStore] - Closing up the JDBC quota store 
+19 058 02:58:15 WARN   [support.DisposableBeanAdapter] - Destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@3dc12148[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@498057bb] rejected from java.util.concurrent.ThreadPoolExecutor@14581721[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+19 058 02:58:15 WARN   [support.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'geoServerLoader': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'wmsLifecycleHandler': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+19 058 02:58:15 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+19 059 02:59:05 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+19 059 02:59:07 WARN   [geoserver.monitor] - monitoring storage memory not found, falling back to 'memory'
+19 059 02:59:08 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+19 059 02:59:08 CONFIG [org.geoserver] - Loading catalog /opt/geoserver/data_dir
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'SRS_downlink'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'KEFS_southWest'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'CMR_areas'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'generic'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'kefs_dark_orange'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'kefs_red'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'line'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'kefs_with_NAME'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'ne_coastline'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'ne_boundary'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'ne_boundary_da'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'point'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'polygon'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'rasterMinScale'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded style 'raster'
+19 059 02:59:08 CONFIG [org.geoserver] - Loaded default workspace 'imos'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded workspace 'baselayers'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded style 'default_map_background'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded style 'geoscienceAusBathy'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded style 'land_no_aus_default'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded style 'land_aus_default'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded workspace 'datalayers'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded style 'AustralianMarineParks'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded workspace 'aodn'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded workspace 'gn'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded workspace 'imos'
+19 059 02:59:09 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Commonwealth_Marine_Reserves', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'comm_mpa', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'comm_mpa'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC  Key Ecological Features CS', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'cs_kefs_2011', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'cs_kefs_2011'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features NW', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'nw_region_kefs', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'nw_region_kefs'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features SW', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features T East', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'te_kefs_2011', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'te_kefs_2011'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC_Key_Ecological_Features_SW_(points)', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs_points', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs_points'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features North', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'final_north_kefs_mar2010', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'final_north_kefs_mar2010'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'aus_coast', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'aus_coast', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'aus_coast'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded coverage store 'GeoscienceAusBathy', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded coverage 'geoscienceAusBathy', enabled
+19 059 02:59:10 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'geoscienceAusBathy'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'world_background', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'Polygone_world_area2', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'Polygone_world_area2'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded data store 'world_coast', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded feature type 'world_land', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'world_land'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded coverage store 'world_geotiff', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded coverage 'worldmap_large_default', enabled
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer 'worldmap_large_default'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer group 'default_basemap_simple'
+19 059 02:59:10 CONFIG [org.geoserver] - Loaded layer group 'default_bathy'
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded data store 'australianMarineParks', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded feature type 'Australian_Marine_Parks', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded layer 'Australian_Marine_Parks'
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded coverage store 'BlueMarble_world', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded coverage 'world', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded layer 'world'
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded data store 'naturalearth_boundaries', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_da', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_da'
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_lines_land', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_lines_land'
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_coastline', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded layer 'ne_50m_coastline'
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded data store 'SRS_satellite', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded feature type 'satellite', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded layer 'satellite'
+19 059 02:59:11 CONFIG [org.geoserver] - Read catalog in 2.331 s
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1af39e46:183ee2e3d50:-8000', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1af39e46:183ee2e3d50:-7fff', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded service 'csw', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1af39e46:183ee2e3d50:-7ffe', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl--789196a5:183ee282ce1:-7ffc', enabled
+19 059 02:59:11 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1af39e46:183ee2e3d50:-7ffd', enabled
+19 059 02:59:11 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 059 02:59:11 CONFIG [config.XMLConfiguration] - TileLayerConfiguration file validated fine.
+19 059 02:59:11 CONFIG [config.XMLConfiguration] - Initializing GridSets from /opt/geoserver/data_dir/gwc
+19 059 02:59:11 INFO   [config.XMLConfiguration] - Read GridSet InspireCRS84Quad
+19 059 02:59:11 CONFIG [config.XMLConfiguration] - Initializing layers from /opt/geoserver/data_dir/gwc
+19 059 02:59:11 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+19 059 02:59:11 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+19 059 02:59:11 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+19 059 02:59:11 CONFIG [gwc.layer] - Loaded 20 tile layers in 54.67 ms
+19 059 02:59:11 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration /opt/geoserver/data_dir/gwc contained no blob store infos.
+19 059 02:59:11 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOWEBCACHE_CACHE_DIR set to /opt/geoserver/data_dir/gwc, using it as the default prefix.
+19 059 02:59:12 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+19 059 02:59:13 INFO   [flow.config] - Loaded control-flow rule: ows.global=100
+19 059 02:59:13 INFO   [flow.config] - Loaded control-flow rule: ows.wms.getmap=10
+19 059 02:59:13 INFO   [flow.config] - Loaded control-flow rule: ows.wfs.getfeature.application/msexcel=4
+19 059 02:59:13 INFO   [flow.config] - Loaded control-flow rule: user=6
+19 059 02:59:13 INFO   [flow.config] - Loaded control-flow rule: ows.gwc=16
+19 059 02:59:13 INFO   [flow.config] - Loaded control-flow rule: user.ows.wps.execute=1000/d;30s
+19 059 02:59:13 CONFIG [geoserver.flow] - Control-flow active with 6 flow controllers
+19 059 02:59:14 INFO   [geoserver.monitor] - Monitor extension enabled
+19 059 02:59:18 WARN   [turbojpeg.TurboJPEGMapResponse] - The turbo jpeg encoder is available for usage
+19 059 02:59:19 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 059 02:59:19 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 059 02:59:19 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 059 02:59:19 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 059 02:59:19 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+19 059 02:59:19 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+19 059 02:59:19 CONFIG [diskquota.DiskQuotaMonitor] - 20 layers attached to global quota 20.0 GB
+19 059 02:59:19 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 5 SECONDS
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+19 059 02:59:20 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+19 059 02:59:20 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+19 059 02:59:20 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+19 059 02:59:20 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+19 059 02:59:20 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 059 02:59:20 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+19 059 02:59:20 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+19 059 02:59:20 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+19 059 02:59:20 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+19 059 02:59:20 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+19 059 02:59:21 WARN   [servlet.BaseMapServlet] - Cannot delete file:/usr/local/tomcat/work/Catalina/localhost/geoserver/wicket-filestore
+19 059 02:59:21 INFO   [jdbc.JDBCQuotaStore] - Closing up the JDBC quota store 
+19 059 02:59:21 WARN   [support.DisposableBeanAdapter] - Destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@e7dff3f[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@1b98f307] rejected from java.util.concurrent.ThreadPoolExecutor@65bf803[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+19 059 02:59:21 WARN   [support.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'geoServerLoader': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'wmsLifecycleHandler': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+19 059 02:59:21 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+19 000 03:00:05 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+19 000 03:00:07 WARN   [geoserver.monitor] - monitoring storage memory not found, falling back to 'memory'
+19 000 03:00:08 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+19 000 03:00:08 CONFIG [org.geoserver] - Loading catalog /opt/geoserver/data_dir
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'CMR_areas'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'SRS_downlink'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'KEFS_southWest'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'generic'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'kefs_with_NAME'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'kefs_red'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'line'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'kefs_dark_orange'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'ne_boundary_da'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'ne_boundary'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'ne_coastline'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'point'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'polygon'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'raster'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'rasterMinScale'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded default workspace 'imos'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded workspace 'baselayers'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'default_map_background'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'geoscienceAusBathy'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'land_no_aus_default'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'land_aus_default'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded workspace 'datalayers'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded style 'AustralianMarineParks'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded workspace 'gn'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded workspace 'aodn'
+19 000 03:00:08 CONFIG [org.geoserver] - Loaded workspace 'imos'
+19 000 03:00:09 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features North', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'final_north_kefs_mar2010', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'final_north_kefs_mar2010'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Commonwealth_Marine_Reserves', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'comm_mpa', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'comm_mpa'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features NW', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'nw_region_kefs', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'nw_region_kefs'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC  Key Ecological Features CS', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'cs_kefs_2011', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'cs_kefs_2011'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features T East', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'te_kefs_2011', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'te_kefs_2011'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC_Key_Ecological_Features_SW_(points)', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs_points', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs_points'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'DSEWPaC Key Ecological Features SW', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'sw_region_kefs', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'sw_region_kefs'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'aus_coast', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'aus_coast', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'aus_coast'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded coverage store 'GeoscienceAusBathy', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded coverage 'geoscienceAusBathy', enabled
+19 000 03:00:10 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'geoscienceAusBathy'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'world_background', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'Polygone_world_area2', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'Polygone_world_area2'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'world_coast', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'world_land', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'world_land'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded coverage store 'world_geotiff', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded coverage 'worldmap_large_default', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'worldmap_large_default'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer group 'default_basemap_simple'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer group 'default_bathy'
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded data store 'australianMarineParks', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded feature type 'Australian_Marine_Parks', enabled
+19 000 03:00:10 CONFIG [org.geoserver] - Loaded layer 'Australian_Marine_Parks'
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded data store 'naturalearth_boundaries', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_da', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_da'
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_boundary_lines_land', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded layer 'ne_50m_boundary_lines_land'
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded feature type 'ne_50m_coastline', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded layer 'ne_50m_coastline'
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded coverage store 'BlueMarble_world', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded coverage 'world', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded layer 'world'
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded data store 'SRS_satellite', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded feature type 'satellite', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded layer 'satellite'
+19 000 03:00:11 CONFIG [org.geoserver] - Read catalog in 2.568 s
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-2d92958e:183ee2f27f4:-8000', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-2d92958e:183ee2f27f4:-7fff', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded service 'csw', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-2d92958e:183ee2f27f4:-7ffe', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl--789196a5:183ee282ce1:-7ffc', enabled
+19 000 03:00:11 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-2d92958e:183ee2f27f4:-7ffd', enabled
+19 000 03:00:11 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 000 03:00:11 CONFIG [config.XMLConfiguration] - TileLayerConfiguration file validated fine.
+19 000 03:00:11 CONFIG [config.XMLConfiguration] - Initializing GridSets from /opt/geoserver/data_dir/gwc
+19 000 03:00:11 INFO   [config.XMLConfiguration] - Read GridSet InspireCRS84Quad
+19 000 03:00:11 CONFIG [config.XMLConfiguration] - Initializing layers from /opt/geoserver/data_dir/gwc
+19 000 03:00:11 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+19 000 03:00:11 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+19 000 03:00:11 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+19 000 03:00:11 CONFIG [gwc.layer] - Loaded 20 tile layers in 48.73 ms
+19 000 03:00:11 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration /opt/geoserver/data_dir/gwc contained no blob store infos.
+19 000 03:00:11 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOWEBCACHE_CACHE_DIR set to /opt/geoserver/data_dir/gwc, using it as the default prefix.
+19 000 03:00:12 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+19 000 03:00:13 INFO   [flow.config] - Loaded control-flow rule: ows.global=100
+19 000 03:00:13 INFO   [flow.config] - Loaded control-flow rule: ows.wms.getmap=10
+19 000 03:00:13 INFO   [flow.config] - Loaded control-flow rule: ows.wfs.getfeature.application/msexcel=4
+19 000 03:00:13 INFO   [flow.config] - Loaded control-flow rule: user=6
+19 000 03:00:13 INFO   [flow.config] - Loaded control-flow rule: ows.gwc=16
+19 000 03:00:13 INFO   [flow.config] - Loaded control-flow rule: user.ows.wps.execute=1000/d;30s
+19 000 03:00:13 CONFIG [geoserver.flow] - Control-flow active with 6 flow controllers
+19 000 03:00:14 INFO   [geoserver.monitor] - Monitor extension enabled
+19 000 03:00:18 WARN   [turbojpeg.TurboJPEGMapResponse] - The turbo jpeg encoder is available for usage
+19 000 03:00:18 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 000 03:00:18 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver/data_dir/gwc'.
+19 000 03:00:18 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 000 03:00:19 CONFIG [diskquota.ConfigLoader] - Quota config is: /opt/geoserver/data_dir/gwc/geowebcache-diskquota.xml
+19 000 03:00:19 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+19 000 03:00:19 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+19 000 03:00:19 CONFIG [diskquota.DiskQuotaMonitor] - 20 layers attached to global quota 20.0 GB
+19 000 03:00:19 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 5 SECONDS
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+19 000 03:00:19 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+19 000 03:00:19 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+19 000 03:00:19 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+19 000 03:00:19 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+19 000 03:00:19 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 000 03:00:19 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+19 000 03:00:19 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+19 000 03:00:20 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+19 000 03:00:20 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+19 000 03:00:20 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+19 000 03:00:21 WARN   [servlet.BaseMapServlet] - Cannot delete file:/usr/local/tomcat/work/Catalina/localhost/geoserver/wicket-filestore
+19 000 03:00:21 INFO   [geoserver.security] - Start security migration
+19 000 03:00:21 INFO   [geoserver.security] - Information regarding the master password is in: security/masterpw.info
+19 000 03:00:21 INFO   [geoserver.security] - Strong cryptography is available
+19 000 03:00:21 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 000 03:00:21 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 INFO   [geoserver.security] - Start encrypting configuration passwords using pbePasswordEncoder
+19 000 03:00:22 INFO   [geoserver.security] - End encrypting configuration passwords
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 WARN   [geoserver.security] - Cannot find: /accessDenied.jsp
+19 000 03:00:22 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+19 000 03:00:22 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+19 000 03:00:22 INFO   [security.xml] - Successful lock: security/usergroup/default/users.xml.lock
+19 000 03:00:22 INFO   [security.xml] - Successful lock: security/role/default/roles.xml.lock
+19 000 03:00:22 INFO   [geoserver.security] - Start storing roles for service named default
+19 000 03:00:22 INFO   [geoserver.security] - Storing roles successful for service named default
+19 000 03:00:22 INFO   [geoserver.security] - Start reloading roles for service named default
+19 000 03:00:22 INFO   [geoserver.security] - Reloading roles successful for service named default
+19 000 03:00:22 INFO   [geoserver.security] - Adjusted last modified for file: security/role/default/roles.xml
+19 000 03:00:22 INFO   [geoserver.security] - Start storing user/groups for service named default
+19 000 03:00:22 INFO   [geoserver.security] - Storing user/groups successful for service named default
+19 000 03:00:22 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 000 03:00:22 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+19 000 03:00:22 INFO   [geoserver.security] - Adjusted last modified for file: security/usergroup/default/users.xml
+19 000 03:00:22 INFO   [geoserver.security] - End security migration
+19 000 03:00:26 CONFIG [platform.resource] - Notifying ENTRY_MODIFY change on /opt/geoserver/data_dir/security/usergroup/default/users.xml. Created: 0, removed: 0, modified: 0
+19 000 03:00:26 CONFIG [platform.resource] - Notifying ENTRY_MODIFY change on /opt/geoserver/data_dir/security/role/default/roles.xml. Created: 0, removed: 0, modified: 0
+19 000 03:00:26 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 000 03:00:26 INFO   [geoserver.security] - Start reloading roles for service named default
+19 000 03:00:26 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+19 000 03:00:26 INFO   [geoserver.security] - Adjusted last modified for file: security/usergroup/default/users.xml
+19 000 03:00:26 INFO   [geoserver.security] - Reloading roles successful for service named default
+19 000 03:00:26 INFO   [geoserver.security] - Adjusted last modified for file: security/role/default/roles.xml
+19 002 03:02:46 WARN   [geoserver.security] - Failed login, user aodn from 172.25.0.1
+19 002 03:02:46 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 1566ms
+19 003 03:03:08 WARN   [geoserver.security] - Failed login, user geoserver from 172.25.0.1
+19 003 03:03:08 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 3222ms
+19 003 03:03:14 WARN   [geoserver.security] - Failed login, user aodn from 172.25.0.1
+19 003 03:03:14 INFO   [geoserver.security] - Brute force attack prevention, delaying login for 2713ms
+19 006 03:06:37 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 006 03:06:37 WARN   [gce.geotiff] - File /opt/geoserver/data_dir/coverages/BlueMarble_world/bluemarble_jpeg_small.tiff does not exist.
+org.geotools.data.DataSourceException: File /opt/geoserver/data_dir/coverages/BlueMarble_world/bluemarble_jpeg_small.tiff does not exist.
+	at org.geotools.gce.geotiff.GeoTiffReader.<init>(GeoTiffReader.java:283)
+	at org.geotools.gce.geotiff.GeoTiffFormat.getReader(GeoTiffFormat.java:334)
+	at org.geotools.gce.geotiff.GeoTiffFormat.getReader(GeoTiffFormat.java:77)
+	at org.geoserver.catalog.ResourcePool.getGridCoverageReader(ResourcePool.java:1546)
+	at org.geoserver.catalog.ResourcePool.getGridCoverageReader(ResourcePool.java:1467)
+	at org.geoserver.catalog.impl.CoverageInfoImpl.getGridCoverageReader(CoverageInfoImpl.java:174)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.catalog.impl.ModificationProxy.invoke(ModificationProxy.java:144)
+	at com.sun.proxy.$Proxy51.getGridCoverageReader(Unknown Source)
+	at org.geoserver.wms.MapLayerInfo.getCoverageReader(MapLayerInfo.java:389)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:483)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:103)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1497)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:670)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:258)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.geoserver.security.filter.GeoServerBasicAuthenticationFilter.doFilter(GeoServerBasicAuthenticationFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:142)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:77)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.FileNotFoundException: File /opt/geoserver/data_dir/coverages/BlueMarble_world/bluemarble_jpeg_small.tiff does not exist.
+	at org.geotools.gce.geotiff.GeoTiffReader.<init>(GeoTiffReader.java:252)
+	... 120 more
+19 006 03:06:37 ERROR  [geoserver.ows] - 
+org.geoserver.platform.ServiceException: java.io.IOException: Failed to create reader from file:coverages/BlueMarble_world/bluemarble_jpeg_small.tiff and hints Hints:
+  LOCAL_DATE_TIME_HANDLING         = true                                                                                                                               
+  COMPARISON_TOLERANCE             = 1.0E-8                                                                                                                             
+  STYLE_FACTORY                    = StyleFactoryImpl                                                                                                                   
+  FEATURE_FACTORY                  = org.geotools.feature.LenientFeatureFactoryImpl@383b49a6                                                                            
+  GRID_COVERAGE_FACTORY            = GridCoverageFactory                                                                                                                
+    TILE_ENCODING                  = null                                                                                                                               
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER = true                                                                                                                               
+  FORCE_AXIS_ORDER_HONORING        = http                                                                                                                               
+  EXECUTOR_SERVICE                 = java.util.concurrent.ThreadPoolExecutor@3b636bf5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+  LENIENT_DATUM_SHIFT              = true                                                                                                                               
+  FILTER_FACTORY                   = FilterFactoryImpl                                                                                                                  
+  REPOSITORY                       = org.geoserver.catalog.CatalogRepository@46c8ba5a                                                                                   
+
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:485)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:103)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1497)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:670)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:258)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:357)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:176)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:53)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.geoserver.security.filter.GeoServerBasicAuthenticationFilter.doFilter(GeoServerBasicAuthenticationFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:71)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:75)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:92)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:142)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:77)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Failed to create reader from file:coverages/BlueMarble_world/bluemarble_jpeg_small.tiff and hints Hints:
+  LOCAL_DATE_TIME_HANDLING         = true                                                                                                                               
+  COMPARISON_TOLERANCE             = 1.0E-8                                                                                                                             
+  STYLE_FACTORY                    = StyleFactoryImpl                                                                                                                   
+  FEATURE_FACTORY                  = org.geotools.feature.LenientFeatureFactoryImpl@383b49a6                                                                            
+  GRID_COVERAGE_FACTORY            = GridCoverageFactory                                                                                                                
+    TILE_ENCODING                  = null                                                                                                                               
+  FORCE_LONGITUDE_FIRST_AXIS_ORDER = true                                                                                                                               
+  FORCE_AXIS_ORDER_HONORING        = http                                                                                                                               
+  EXECUTOR_SERVICE                 = java.util.concurrent.ThreadPoolExecutor@3b636bf5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+  LENIENT_DATUM_SHIFT              = true                                                                                                                               
+  FILTER_FACTORY                   = FilterFactoryImpl                                                                                                                  
+  REPOSITORY                       = org.geoserver.catalog.CatalogRepository@46c8ba5a                                                                                   
+
+	at org.geoserver.catalog.ResourcePool.getGridCoverageReader(ResourcePool.java:1548)
+	at org.geoserver.catalog.ResourcePool.getGridCoverageReader(ResourcePool.java:1467)
+	at org.geoserver.catalog.impl.CoverageInfoImpl.getGridCoverageReader(CoverageInfoImpl.java:174)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.catalog.impl.ModificationProxy.invoke(ModificationProxy.java:144)
+	at com.sun.proxy.$Proxy51.getGridCoverageReader(Unknown Source)
+	at org.geoserver.wms.MapLayerInfo.getCoverageReader(MapLayerInfo.java:389)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:483)
+	... 107 more
+19 007 03:07:04 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:04 INFO   [geoserver.flow] - Request [WMS 1.1.0 GetMap] starting, processing through flow controllers
+19 007 03:07:04 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:05 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-180.0 : 180.0, -90.0 : 90.0]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 384
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@17d5b863]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-180.0,-90.0,180.0,90.0, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=384, LAYERS=gn:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+19 007 03:07:05 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.0 GetMap]
+19 007 03:07:05 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:05 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:05 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:05 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:06 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-270.00399515624997 : 270.00399515624997, -135.00399515624997 : 135.00399515624997]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@17d5b863]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=-270.00399515624997,-135.00399515624997,270.00399515624997,135.00399515624997, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=gn:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:06 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:06 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:08 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:08 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:08 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:08 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[96.15184435546875 : 163.65284314453123, -37.090343144531246 : -3.3393443554687536]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@17d5b863]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=96.15184435546875,-37.090343144531246,163.65284314453123,-3.3393443554687536, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=gn:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:08 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:08 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:15 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:15 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:15 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:15 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[96.15184435546875 : 163.65284314453123, -46.670421269531246 : -12.919422480468754]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@17d5b863]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=96.15184435546875,-46.670421269531246,163.65284314453123,-12.919422480468754, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=gn:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:15 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:15 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:16 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:16 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:16 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:16 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[105.64403185546875 : 173.14503064453123, -50.449718144531246 : -16.698719355468754]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@17d5b863]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=105.64403185546875,-50.449718144531246,173.14503064453123,-16.698719355468754, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=gn:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:16 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:16 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:36 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:36 INFO   [geoserver.flow] - Request [WMS 1.1.0 GetMap] starting, processing through flow controllers
+19 007 03:07:36 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:36 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-180.0 : 180.0, -90.0 : 90.0]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 384
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-180.0,-90.0,180.0,90.0, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=384, LAYERS=baselayers:default_basemap_simple}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+19 007 03:07:36 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.0 GetMap]
+19 007 03:07:36 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:36 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:36 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:36 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:37 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-270.00399515624997 : 270.00399515624997, -135.00399515624997 : 135.00399515624997]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=-270.00399515624997,-135.00399515624997,270.00399515624997,135.00399515624997, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=baselayers:default_basemap_simple}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:37 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:37 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:41 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:41 WARN   [gce.geotiff] - Coordinate Reference System is not available
+19 007 03:07:41 INFO   [geoserver.flow] - Request [WMS 1.1.0 GetMap] starting, processing through flow controllers
+19 007 03:07:41 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:41 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-180.0 : 180.0, -90.0 : 90.0]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 384
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-180.0,-90.0,180.0,90.0, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=384, LAYERS=baselayers:default_bathy}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=rasterMinScale], StyleImpl[ name=geoscienceAusBathy], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+19 007 03:07:41 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.0 GetMap]
+19 007 03:07:41 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:42 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:42 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:42 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:43 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-270.00399515624997 : 270.00399515624997, -135.00399515624997 : 135.00399515624997]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=-270.00399515624997,-135.00399515624997,270.00399515624997,135.00399515624997, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=baselayers:default_bathy}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=rasterMinScale], StyleImpl[ name=geoscienceAusBathy], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:43 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:43 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:45 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:45 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:45 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:45 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[108.89598498046875 : 176.39698376953123, -52.119640019531246 : -18.368641230468754]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=108.89598498046875,-52.119640019531246,176.39698376953123,-18.368641230468754, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=baselayers:default_bathy}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=rasterMinScale], StyleImpl[ name=geoscienceAusBathy], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:46 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:46 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:47 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:47 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:47 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:47 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[142.7178642956543 : 146.9366767199707, -43.159821251220706 : -41.050383826904294]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=142.7178642956543,-43.159821251220706,146.9366767199707,-41.050383826904294, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=baselayers:default_bathy}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=rasterMinScale], StyleImpl[ name=geoscienceAusBathy], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:47 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:47 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:49 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:49 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:49 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:50 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-7.0332475781249855 : 262.970747578125, -78.04887257812499 : 56.955122578124985]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=-7.0332475781249855,-78.04887257812499,262.970747578125,56.955122578124985, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=baselayers:default_bathy}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=rasterMinScale], StyleImpl[ name=geoscienceAusBathy], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:50 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:50 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:50 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:50 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetFeatureInfo] starting, processing through flow controllers
+19 007 03:07:50 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:51 INFO   [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://localhost:8080/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[136.4208932043207 : 154.1747994543207, -51.77921983840989 : -34.02531358840989]
+ layers: Polygone_world_area2,baselayers:worldmap_large_default,baselayers:geoscienceAusBathy,world_land,aus_coast
+ styles: default_map_background,rasterMinScale,geoscienceAusBathy,land_no_aus_default,land_aus_default
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=baselayers:default_bathy, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:4326, BBOX=136.4208932043207,-51.77921983840989,154.1747994543207,-34.02531358840989, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=baselayers:default_bathy, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+19 007 03:07:51 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetFeatureInfo]
+19 007 03:07:51 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
+19 007 03:07:51 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 007 03:07:51 INFO   [geoserver.flow] - Request [WMS 1.1.1 GetMap] starting, processing through flow controllers
+19 007 03:07:51 INFO   [geoserver.flow] - Request control-flow performed, running requests: 1, blocked requests: 0
+19 007 03:07:52 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[140.3942246850586 : 148.8318495336914, -43.681703049316404 : -39.462828200683596]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 385
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e37ef19d, org.geoserver.wms.MapLayerInfo@80f4ef53, org.geoserver.wms.MapLayerInfo@b4e96ce1, org.geoserver.wms.MapLayerInfo@4dcab849, org.geoserver.wms.MapLayerInfo@4deb8d6b]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/png, SRS=EPSG:4326, BBOX=140.3942246850586,-43.681703049316404,148.8318495336914,-39.462828200683596, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=769, HEIGHT=385, TRANSPARENT=true, LAYERS=baselayers:default_bathy}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=default_map_background], StyleImpl[ name=rasterMinScale], StyleImpl[ name=geoscienceAusBathy], StyleImpl[ name=land_no_aus_default], StyleImpl[ name=land_aus_default]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 769
+19 007 03:07:52 INFO   [geoserver.flow] - releasing flow controllers for [WMS 1.1.1 GetMap]
+19 007 03:07:52 INFO   [geoserver.flow] - Request completed, running requests: 0, blocked requests: 0
